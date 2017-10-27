@@ -46,13 +46,39 @@ main {
   list-style: none;
   clear: both;
   text-align: center;
+  padding-top: 20px;
 }
 
 .footer li {
   display: inline;
   text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0 10px;
+  color: gray;
+}
+
+.footer a {
+  color: #1c5380;
+  text-decoration: none;
 }
 
 .logo {
   margin-bottom: 10px;
+}
+
+h2 {
+    color: #06365F;
+    font-size: 1.7em;
+    width: 65%;
+    line-height: 1.2em;
+}
+
+main img {
+  margin: 15px 10px 0 0;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: black;
 }
